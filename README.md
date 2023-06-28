@@ -1,5 +1,4 @@
-
-First, run the development server:
+# Coding guidelines
 
 ```bash
 npm run dev
@@ -96,19 +95,19 @@ src
 someFunction(`Hello ${name}`);
 ```
 
-### Двойные кавычки
+### Одинарные кавычки
 
 *Плохо:* ❌
-```js
-import Name from 'file/path';
-
-const foo = 'bar';
-```
-*Хорошо:* ✔️
 ```js
 import Name from "file/path";
 
 const foo = "bar";
+```
+*Хорошо:* ✔️
+```js
+import Name from 'file/path';
+
+const foo = 'bar';
 ```
 
 ### Двойные кавычки в тегах (jsx, tsx)
@@ -184,7 +183,7 @@ let bar = "bar";
 ```
 
 ### Неиспользуемые переменные
-To avoid errors, remove unused variables.  
+To avoid errors, remove unused variables.
 
 Во избежание ошибок удалите неиспользуемые переменные.
 
