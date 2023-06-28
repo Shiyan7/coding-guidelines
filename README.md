@@ -1,10 +1,6 @@
 # Coding guidelines
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+В данном кодовом руководстве представлены рекомендации по стилю написания кода.
 
 ### Структура
 ```
@@ -43,7 +39,8 @@ yarn dev
     |   |   └── config
 ```
 
-### Используйте нейминг файлов или папок только в стиле kebab-case, Все буквы маленькие, слова разделены дефисом.
+### Используйте нейминг файлов или папок только в стиле kebab-case, Все буквы маленькие, слова разделены дефисом. [https://developers.google.com/style/filenames](https://developers.google.com/style/filenames)
+
 ```
 src
 └── pages
