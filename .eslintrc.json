@@ -33,7 +33,9 @@
     "react/button-has-type": 0,
     "react/jsx-filename-extension": [
       1,
-      { "extensions": [".jsx", ".tsx"] }
+      {
+        "extensions": [".jsx", ".tsx"]
+      }
     ],
     "react/jsx-props-no-spreading": 0,
     "react/destructuring-assignment": 1,
@@ -84,15 +86,15 @@
     "no-underscore-dangle": "off",
     "quotes": "off",
 
-		"max-len": [
-			"warn",
-			{
-				"code": 120,
-				"ignoreComments": true,
-				"ignoreStrings": true,
-				"ignoreTemplateLiterals": true
-			}
-		],
+    "max-len": [
+      "warn",
+      {
+        "code": 120,
+        "ignoreComments": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true
+      }
+    ],
     "camelcase": [
       "error",
       {
@@ -148,8 +150,15 @@
     "unicorn/throw-new-error": "error",
     "unicorn/no-useless-spread": "error",
     "unicorn/no-unnecessary-await": "error",
-    "unicorn/catch-error-name": ["error", {"ignore": ["^_\\d*$"]}],
-    "unicorn/filename-case": ["error", {"cases": {"kebabCase": true, "pascalCase": true}}],
+    "unicorn/catch-error-name": ["error", {
+      "ignore": ["^_\\d*$"]
+    }],
+    "unicorn/filename-case": ["error", {
+      "cases": {
+        "kebabCase": true,
+        "pascalCase": true
+      }
+    }],
     "jsx-quotes": [2, "prefer-double"],
     "jsx-a11y/alt-text": [
       2,
