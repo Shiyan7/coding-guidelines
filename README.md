@@ -2,6 +2,14 @@
 
 В данном кодовом руководстве представлены рекомендации по стилю написания кода.
 
+# Установка
+
+Установите всё необходимое для eslint через yarn:
+
+```bash
+yarn add -D eslint @feature-sliced/eslint-config @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-airbnb eslint-config-next eslint-config-prettier eslint-plugin-boundaries eslint-plugin-prettier eslint-plugin-unicorn prettier
+```
+
 ### Структура
 ```
 └────
